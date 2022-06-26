@@ -1,0 +1,96 @@
+PODS:
+  - Alamofire (5.5.0)
+  - AppAuth (1.4.0):
+    - AppAuth/Core (= 1.4.0)
+    - AppAuth/ExternalUserAgent (= 1.4.0)
+  - AppAuth/Core (1.4.0)
+  - AppAuth/ExternalUserAgent (1.4.0)
+  - Cosmos (23.0.0)
+  - CreditCardView (0.1.1)
+  - GoogleSignIn (6.1.0):
+    - AppAuth (~> 1.4)
+    - GTMAppAuth (~> 1.0)
+    - GTMSessionFetcher/Core (~> 1.1)
+  - GTMAppAuth (1.2.2):
+    - AppAuth/Core (~> 1.4)
+    - GTMSessionFetcher/Core (~> 1.5)
+  - GTMSessionFetcher/Core (1.7.0)
+  - Mocker (2.5.5)
+  - PKYStepper (0.0.1)
+  - Realm (10.20.0):
+    - Realm/Headers (= 10.20.0)
+  - Realm/Headers (10.20.0)
+  - RealmSwift (10.20.0):
+    - Realm (= 10.20.0)
+  - RxCocoa (6.5.0):
+    - RxRelay (= 6.5.0)
+    - RxSwift (= 6.5.0)
+  - RxRelay (6.5.0):
+    - RxSwift (= 6.5.0)
+  - RxSwift (6.5.0)
+  - SDWebImage (5.12.5):
+    - SDWebImage/Core (= 5.12.5)
+  - SDWebImage/Core (5.12.5)
+  - SideMenu (6.5.0)
+  - UPCarouselFlowLayout (1.1.2)
+  - Wormholy (1.6.5)
+
+DEPENDENCIES:
+  - Alamofire (~> 5.5)
+  - Cosmos (~> 23.0)
+  - CreditCardView
+  - GoogleSignIn
+  - Mocker (~> 2.5.4)
+  - PKYStepper (= 0.0.1)
+  - RealmSwift (~> 10)
+  - RxCocoa (= 6.5.0)
+  - RxSwift
+  - SDWebImage (~> 5.0)
+  - SideMenu
+  - UPCarouselFlowLayout
+  - Wormholy
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - AppAuth
+    - Cosmos
+    - CreditCardView
+    - GoogleSignIn
+    - GTMAppAuth
+    - GTMSessionFetcher
+    - Mocker
+    - PKYStepper
+    - Realm
+    - RealmSwift
+    - RxCocoa
+    - RxRelay
+    - RxSwift
+    - SDWebImage
+    - SideMenu
+    - UPCarouselFlowLayout
+    - Wormholy
+
+SPEC CHECKSUMS:
+  Alamofire: 1c4fb5369c3fe93d2857c780d8bbe09f06f97e7c
+  AppAuth: 31bcec809a638d7bd2f86ea8a52bd45f6e81e7c7
+  Cosmos: b5c6a9a637e28a061b54c8f8b1d8529d7d4db73f
+  CreditCardView: 2f4c9dbede61e2867067b1dbdb8a2b3366d04500
+  GoogleSignIn: c90b5bec45e780f54c6a8e1e3c182a86e3dda69d
+  GTMAppAuth: ad5c2b70b9a8689e1a04033c9369c4915bfcbe89
+  GTMSessionFetcher: 43748f93435c2aa068b1cbe39655aaf600652e91
+  Mocker: 8c731a8104962f246cadf2b02556218e9edc1390
+  PKYStepper: 8dacefbddf9fa2b6aaec2ef828b46a78daa2db7d
+  Realm: ae32bdc1da7d19c7617e0400201a77acd4a211b9
+  RealmSwift: c95eec6a712924870b2e36c4c081d63ec07e5414
+  RxCocoa: 94f817b71c07517321eb4f9ad299112ca8af743b
+  RxRelay: 1de1523e604c72b6c68feadedd1af3b1b4d0ecbd
+  RxSwift: 5710a9e6b17f3c3d6e40d6e559b9fa1e813b2ef8
+  SDWebImage: 0905f1b7760fc8ac4198cae0036600d67478751e
+  SideMenu: f583187d21c5b1dd04c72002be544b555a2627a2
+  UPCarouselFlowLayout: 4c7d2c43a10ebb1597bde502a53699d378341dad
+  Wormholy: 3252bc3e55a1847ef9a0976c1377bd77bf3635fa
+
+PODFILE CHECKSUM: c62a942c374130a780ebee6ee2b3266ddf3817a5
+
+COCOAPODS: 1.11.2
