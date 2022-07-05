@@ -49,16 +49,10 @@ class ContentTypeRepositoryImpl: BaseRepository, ContentTypeRepository {
     }
     
     func getMoviesOrSeries(type: MovieSerieGroupType, completion: @escaping ([MovieObject]) -> Void) {
-//        if let object = contentTypeMap[type.rawValue] {
-//            let movieObject = realmInstance.objects(MovieObject.self)
-//                .filter(NSPredicate(format: "ANY belongsToType == %@", object))
-//            completion(movieObject.map{ $0 })
-//        }else {
             let object = realmInstance.object(ofType: BelongsToTypeObject.self, forPrimaryKey: type.rawValue)
             let movieObject = realmInstance.objects(MovieObject.self)
                 .filter(NSPredicate(format: "ANY belongsToType == %@", object!))
             completion(movieObject.map{ $0 })
-        
     }
  
 }
